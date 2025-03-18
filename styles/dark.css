@@ -1,16 +1,34 @@
-:root.theme-dark {
+.theme-dark .page {
   --bg-color: #000028;
-  --text-accent: #ff0070;
-  --text-accent-rgb: 255, 0, 112;
-  --text: #f1b2ce;
-  --focus: #db00ff;
-  --font: "IBM Plex mono", monospace;
-  --font-size: 18px;
-  --cover-image: url("../images/cover-image-dark.png");
-  --button-hover-opacity: 0.5;
-  --show-rec: flex;
-  --section-title: var(--text-accent);
-  --corners-menu-color: var(--text-accent);
-  --menu-hover-color: rgba(var(--text-accent-rgb), 0.5);
-  --decor-text-color: var(--bg-color);
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --color-header-title: #DB00FF;
+  --subtitle-color: #000028;
+  --bg-cover: url(../images/cover-image-dark.png);
+  --decor-color: var(--accent-color);
+  --content-title-color:var(--accent-color);
+
+  --underline-color: var(--accent-color);
+  --border-color: var(--text-color);
+  --border-color-button-hover:rgb(255, 0, 112, 40%);
+  --button-color: var(--accent-color);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --bg-color: #000028;
+  --accent-color: #FF0070;
+  --text-color: #F1B2CE;
+  --color-header-title: #DB00FF;
+  --subtitle-color: #000028;
+  --bg-cover: url(../images/cover-image-dark.png);
+  --button-color: var(--accent-color);
+  --decor-color: var(--accent-color);
+  --content-title-color:var(--accent-color);
+}
+}
+
+.theme-dark 
+  .header__decoration-icon {
+    display: block;
+  }
