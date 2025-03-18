@@ -8,7 +8,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  font-family: var(--font-family);
+  overflow: auto;
 }
 
 h1,
@@ -27,17 +27,27 @@ ul {
   list-style: none;
 }
 
-picture {
-  margin: 0;
-  padding: 0;
-}
-
 button,
 a {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+a {
   text-decoration: none;
-  cursor: pointer;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+button:focus,
+a:focus {
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
