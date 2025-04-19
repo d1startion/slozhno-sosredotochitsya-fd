@@ -1,17 +1,10 @@
-.page.theme_dark {
-  --bg-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
-  --color-title: #db00ff;
-  --accent-color: #ff0070;
-  --bg-color-text: #ff0070;
-  --color-main-title: #ff0070;
-  --color-main-subtitle: #000028;
-  --color-text: #f1b2ce;
-  --color-button-hover: rgb(255, 0, 112, 0.4);
-  --title-decor: #FF0070;
-  --border-color: #F1B2CE;
-}
 
-.page.theme_dark .rec {
-  display: block;
+:root.theme-dark {
+  --heading-text-color: #000028;
+  --focus-text-color: #db00ff;
+  --heading-bg-color:#ff0070;
+  --article-text-color:#f1b2ce;
+  --bg-page:#000028;
+  --rec-color: #ff0070; 
+  --bg-picture: url(../images/cover-image-dark.png);
 }

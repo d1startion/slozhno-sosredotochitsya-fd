@@ -1,23 +1,21 @@
-:root {
-  --bg-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
-  --color-title: #db00ff;
-  --accent-color: #ff0070;
-  --bg-color-text: #ff0070;
-  --color-main-title: #ff0070;
-  --color-main-subtitle: #000028;
-  --color-text: #f1b2ce;
-  --color-button-hover: rgb(255, 0, 112, 0.4);
-  --title-decor: #FF0070;
-  --border-color: #F1B2CE;
-  --global-font-family: "IBM Plex Mono", sans-serif, monospace;
-  --font-size-theme-menu-item: 18px;
-  --font-weight-content-list: 400;
-  --font-weight-subtitle: 700;
-  --line-height: 23.4px;
-  --line-height-title: 82.5%;
-  --text-align: left;
 
-    --mobile-version-font: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --font-for-computer-and-tablet-versions: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+:root {
+--heading-text-color: #000028;
+--bg-page:#000028;
+--focus-text-color: #db00ff;
+--heading-bg-color:#ff0070;
+--article-heading:#ff0070;
+--article-text-color:#f1b2ce;
+--rec-color: #ff0070;
+--bg-picture: url(../images/cover-image-dark.png);
+--focus-line-height: 82.5%;
+--mob-focus-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+--lab-focus-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+--main-line-height: 23.4px;
+--main-font-size: 18px;
+--main-font-weight: 400;
+--large-font-weight: 700;
+--other-versions-font: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+--main-font: 'IBM Plex Mono';
 }
